@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="todo-app">
+    <div class="title">xxx的ToDoapp</div>
+    <div class="todo-form">
+        <input class="todo-input", type="text" placeholder="Add a todo" />
+        <button class="todo-button">添加</button>
+    </div>
+
+    <div class="item">
+        <div>
+            <input type="checkbox" />
+            <span>学习HTML</sapn>
+        </div>
+        
+        <div class="del">del</div>
+
+    </div>
+
+    <div class="item">
+        <div>
+            <input type="checkbox" />
+            <span>学习HTML</sapn>
+        </div>
+        
+        <div class="del">del</div>
+
+    </div>
+
+    <div class="item">
+        <div>
+            <input type="checkbox" />
+            <span>学习HTML</sapn>
+        </div>
+        
+        <div class="del">del</div>
+
+    </div>
+
+    </div>
+    <style>
+        body {
+            background: linear-gradient(to right, 
+            rgb(113, 65, 168), rgb(44, 114, 251, 1)
+            );
+        }
+        .todo-app {
+            width: 98%;
+            padding-top:30px;
+            box-sizing: border-box;
+            height: 500px;
+            background-color: white;
+            margin: 40px auto;
+            border-radius: 10px;
+        }
+        .title{
+            font-size: 30px;
+            font-weight: 700;
+            text-align: center;
+        }
+        .todo-input{
+            border: 1px solid #ccc;
+            outline:none;
+            width:60%;
+            height:50px;
+            border-radius: 20px 0px 0px 20px;
+        }
+        .todo-button {
+            width: 100px;
+            height: 52px;
+            border-radius: 0px 20px 20px 0px;
+            background: linear-gradient(to right, 
+            rgb(113, 65, 168), rgb(44, 114, 251, 1)
+            );
+            color: white;
+            cursor: pointer;
+        }
+        .todo-form {
+            width: 80%;
+            margin: 30px auto;
+            display: flex;
+            justify-content: center;
+        }
+        .item {
+            width: 80%;
+            margin: 20px auto;
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 20px;
+            border-radius: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: rgba(43, 8, 86, 0.126) 0px 3px 8px;
+        }
+        .del {
+            width: 50px;
+            height: 30px;
+            background-color: rgb(216, 48, 14);
+            color: white;
+            text-align: center;
+            line-height: 30px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+
+</body>
+</html>
